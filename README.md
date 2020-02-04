@@ -1,3 +1,24 @@
+Tamerall
+=========
+
+Tamerall is a modified version of Cantarell. Glyphs and features are identical, but the number of instances, instance names and interpolation ratios (weights) for the same weight are different.
+
+Cantarell Instance | Weight| Tamerall Instance | Weight
+----------------------- | ----- | ---------------------- | ------
+Thin                    | 20    | ExtraLight             | 30
+Light                   | 40    | Light                  | 48
+*N/A*                   | *N/A* | Normal                 | 70
+Regular                 | 80    | Regular                | 80
+*N/A*                   | *N/A* | Medium                 | 100
+Bold                    | 126   | Bold                   | 126
+Extra Bold              | 170   | Heavy                  | 170
+
+Adjustments were made so that the resultant font can be used harmoniously with [Source Han Sans](https://github.com/adobe-fonts/source-han-sans) / Noto Sans CJK / [Chiron Sans HK](https://tamcy.github.io/chiron-sans-hk/). The font family name has been changed to avoid confusion.
+
+Please check the [Chiron Sans HK companion](https://github.com/tamcy/chiron-sans-hk-companion) repository for the .otf builds.
+
+The original README follows.
+
 Cantarell
 =========
 
