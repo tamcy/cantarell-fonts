@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="800" default="400">
+      <map input="100" output="20"/>
+      <map input="300" output="40"/>
+      <map input="400" output="80"/>
+      <map input="700" output="126"/>
+      <map input="800" output="170"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="Cantarell-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="20"/>
+      </location>
+    </source>
+    <source filename="Cantarell-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+      </location>
+    </source>
+    <source filename="Cantarell-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance stylename="ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="30"/>
+      </location>
+    </instance>
+    <instance stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="48"/>
+      </location>
+    </instance>
+    <instance stylename="Normal">
+      <location>
+        <dimension name="Weight" xvalue="70"/>
+      </location>
+    </instance>
+    <instance stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="80"/>
+      </location>
+    </instance>
+    <instance stylename="Medium">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </instance>
+    <instance stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="126"/>
+      </location>
+    </instance>
+    <instance stylename="Heavy">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>0B2E441B-685E-400D-9B9B-E078DEED62EF</key>
+        <dict>
+          <key>HH</key>
+          <string>19</string>
+          <key>HV</key>
+          <string>22</string>
+          <key>OH</key>
+          <string>19</string>
+          <key>OV</key>
+          <string>22</string>
+          <key>nV</key>
+          <string>21</string>
+          <key>nd</key>
+          <string>14</string>
+          <key>oH</key>
+          <string>18</string>
+          <key>oV</key>
+          <string>21</string>
+          <key>tH</key>
+          <string>17</string>
+        </dict>
+        <key>51C2DFEF-3776-4D13-9284-96485B799B57</key>
+        <dict>
+          <key>HH</key>
+          <string>156</string>
+          <key>HV</key>
+          <string>176</string>
+          <key>OH</key>
+          <string>150</string>
+          <key>OV</key>
+          <string>180</string>
+          <key>nV</key>
+          <string>173</string>
+          <key>nd</key>
+          <string>125</string>
+          <key>oH</key>
+          <string>144</string>
+          <key>oV</key>
+          <string>176</string>
+          <key>tH</key>
+          <string>135</string>
+        </dict>
+        <key>F333AEC5-BB61-4D5E-9EDD-6124322D28F2</key>
+        <dict>
+          <key>HH</key>
+          <string>72</string>
+          <key>HV</key>
+          <string>83</string>
+          <key>OH</key>
+          <string>73</string>
+          <key>OV</key>
+          <string>85</string>
+          <key>nV</key>
+          <string>80</string>
+          <key>nd</key>
+          <string>55</string>
+          <key>oH</key>
+          <string>70</string>
+          <key>oV</key>
+          <string>80</string>
+          <key>tH</key>
+          <string>67</string>
+        </dict>
+      </dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>_bar-cy</string>
+        <string>_bottomhook</string>
+        <string>_commaaccent</string>
+        <string>_currencyvstem</string>
+        <string>_descender-cy.case.straight</string>
+        <string>_descenderreverse-cy.case</string>
+        <string>_descenderreversed-cy</string>
+        <string>_o.numero</string>
+        <string>_slash.zero</string>
+        <string>_slash.zero.osf</string>
+        <string>_typoquote</string>
+        <string>hryvnia</string>
+        <string>tenge</string>
+        <string>tugrik</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>
